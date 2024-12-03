@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organ Donation Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <h1>Organ Donation Management System</h1>
+
+    <section id="donor-section">
+        <h2>Register Donor</h2>
+        <form id="donor-form">
+            <input type="text" id="donor-name" placeholder="Name" required>
+            <input type="number" id="donor-age" placeholder="Age" required>
+            <input type="text" id="donor-blood-group" placeholder="Blood Group" required>
+            <input type="text" id="donor-organ" placeholder="Organ" required>
+            <input type="text" id="donor-location" placeholder="Location" required>
+            <button type="submit">Add Donor</button>
+        </form>
+    </section>
+
+    <section id="recipient-section">
+        <h2>Register Recipient</h2>
+        <form id="recipient-form">
+            <input type="text" id="recipient-name" placeholder="Name" required>
+            <input type="number" id="recipient-age" placeholder="Age" required>
+            <input type="text" id="recipient-blood-group" placeholder="Blood Group" required>
+            <input type="text" id="recipient-organ" placeholder="Required Organ" required>
+            <input type="text" id="recipient-location" placeholder="Location" required>
+            <input type="number" id="recipient-priority" placeholder="Priority (1-5)" required>
+            <button type="submit">Add Recipient</button>
+        </form>
+    </section>
+
+    <section id="match-section">
+        <h2>Find Matches</h2>
+        <button id="match-btn">Find Matches</button>
+        <div id="match-results"></div>
+    </section>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organ Donation</title>
+</head>
+<body>
+    <h1>Donate Organs,Save Lives!!!</h1>
+</body>
+</center>
+</html>
